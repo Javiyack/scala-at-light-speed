@@ -75,6 +75,10 @@ fabric.properties
 ### Intellij Patch ###
 # Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
 
+.idea
+.idea/
+.idea/modules/
+.idea/*
 # *.iml
 # modules.xml
 # .idea/misc.xml
@@ -129,7 +133,17 @@ project/plugins/project/
 .cache
 .lib/
 
+### VSCODE ###
+
+.vscode/
+.metals/
+.history/
+
 ### Scala ###
 
 # End of https://www.gitignore.io/api/sbt,java,scala,intellij
 
+.idea/misc.xml
+.idea/modules/scala-at-light-speed-build.iml
+.idea/modules/scala-at-light-speed.iml
+*.iml
